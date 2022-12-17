@@ -1,17 +1,12 @@
-﻿Imports DevExpress.Xpf.Core
-Imports System
-Imports System.Collections.Generic
-Imports System.Configuration
-Imports System.Data
-Imports System.Linq
-Imports System.Threading.Tasks
+Imports DevExpress.Xpf.Core
 Imports System.Windows
 
 Namespace DockingInWebBrowserInspiredApps
+
     ''' <summary>
     ''' Interaction logic for App.xaml
     ''' </summary>
-    Partial Public Class App
+    Public Partial Class App
         Inherits Application
 
         Protected Overrides Sub OnStartup(ByVal e As StartupEventArgs)
